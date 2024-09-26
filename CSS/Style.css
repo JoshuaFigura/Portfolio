@@ -1,0 +1,12 @@
+body {
+    background-color: #E3E3E3;
+}
+
+li {
+    display: inline;
+}
+
+.inline-block {
+    float: right;
+    padding: 15px 15px;
+}
