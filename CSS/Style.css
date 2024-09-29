@@ -39,6 +39,7 @@ body {
     justify-content: center;
     margin-left: 281px;
     margin-right: 305px;
+   
 }
 .image .title {
     align-self: flex-end;
@@ -74,4 +75,21 @@ p {
 .Resume:hover {
     background-color: #014421;
     color: #E3E3E3;
+}
+
+.Skills {
+    display: flex;
+    justify-content: center;
+}
+.Skills h1 {
+    font-size: 54px;
+}
+
+
+.Projects {
+    display: flex;
+    justify-content: center;
+}
+.Projects h1 {
+    font-size: 54px;
 }
