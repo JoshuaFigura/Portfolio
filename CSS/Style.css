@@ -8,11 +8,30 @@
     src: url(fonts\HubotSans-Regular.ttf);
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 body {
     background-color: #E3E3E3;
     padding: 0;
     margin: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+  body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        
 
 .inline-block{
     margin-right: 50px;
@@ -39,7 +58,10 @@ body {
     justify-content: center;
     margin-left: 281px;
     margin-right: 305px;
-   
+}
+.About p {
+    margin-top: 50px;
+    margin-bottom: 59px;
 }
 .image .title {
     align-self: flex-end;
@@ -92,4 +114,51 @@ p {
 }
 .Projects h1 {
     font-size: 54px;
+}
+
+.skillscontainer {
+    display: flex;
+}
+.UserResearch {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.UserResearch img {
+    width: 194px;
+    height: 205px;
+    margin-top: 31px;
+}
+
+
+.UserResearch p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.GraphicDesign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.GraphicDesign img {
+    width: 244px;
+    height: 236px;
+}
+.GraphicDesign p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Wireframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Wireframe p {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
